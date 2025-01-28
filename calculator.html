@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <script>
+        function  sum(val1,val2,val3){
+   document.write( "This is addition value =",val1+val2+val3)
+}
+function  sub(val1,val2,val3){
+    document.write( "This is subtraction value =",val1-val2-val3)
+ }
+ function multi(val1,val2,val3){
+    document.write( "This is mutiplycation value =",val1*val2*val3)
+ }
+ function  div(val1,val2,val3){
+    document.write( "This is division value =",val1/val2/val3)
+ }
+
+
+
+let val1= parseInt(prompt("enter a value"))
+let val2= parseInt(prompt("enter a value"))
+let val3= parseInt(prompt("enter a value"))
+let operator =  parseInt(prompt("for addition=1 for subtraction=2 for multiply=3 for division=4 "));
+
+
+if(operator === 1){
+
+    sum( val1,val2,val3)
+    }
+    
+    else if(operator === 2 ){
+    
+        sub( val1,val2,val3)
+    }
+    else if(operator === 3 ){
+    
+        multi(val1,val2,val3)
+    }
+    else if(operator === 4 ){
+        div( val1,val2,val3)
+           
+
+    }
+    </script>
+</body>
+</html>
